@@ -13,6 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="O2v-5e-PCO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7t5-ph-z6H">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="3wz-cN-2bs">
