@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var messageLabel: UILabel!
-    @IBOutlet weak var enterNameTextFied: UITextField!
+    @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
     
@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     // update the nameLabel's text to display the information in the namTextField
     // Change the nameLabel's textColor to blue
     // clear the nameTextField's text
+    @IBOutlet weak var nameLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -43,6 +44,14 @@ class ViewController: UIViewController {
         messageLabel.text = enterMessageTextField.text
         messageLabel.textColor = UIColor.redColor()
         
+        //Challenge 1 code
+        nameLabel.hidden = false
+        nameLabel.text = enterNameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
+        enterNameTextField.text = ""
+        enterNameTextField.resignFirstResponder()
+        
+        //Original Code
         enterMessageTextField.text = ""
         enterMessageTextField.resignFirstResponder()
         

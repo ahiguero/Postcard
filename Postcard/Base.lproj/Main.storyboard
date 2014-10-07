@@ -138,9 +138,10 @@
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="Tkm-QT-Mzw" id="QNh-9C-fQq"/>
-                        <outlet property="enterNameTextFied" destination="MPe-GS-k3T" id="DpS-rl-M1e"/>
+                        <outlet property="enterNameTextField" destination="MPe-GS-k3T" id="cpM-bY-5aG"/>
                         <outlet property="mailButton" destination="TUD-I5-BHZ" id="VcJ-9s-66D"/>
                         <outlet property="messageLabel" destination="dss-ch-xmY" id="S0l-ul-ehC"/>
+                        <outlet property="nameLabel" destination="aOF-xo-Cr1" id="Gjw-vi-PGl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
